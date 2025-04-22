@@ -40,7 +40,7 @@ A robust, horizontally scalable data pipeline for audio preprocessing that inges
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Anushk97/mv-audio-pipeline.git
    cd mv-audio-pipeline
    ```
 
@@ -225,10 +225,10 @@ The pipeline produces structured output in the following format:
 ## ⏱️ Time Spent
 
 - Architecture design: 2 hours
-- Implementation: 8 hours
-- Testing and debugging: 3 hours
-- Documentation: 2 hours
-- Total: ~15 hours
+- Implementation: 6 hours
+- Testing and debugging: 2 hours
+- Documentation: 1 hour
+- Total: ~11 hours
 
 ## 🧩 Trade-offs and Decisions
 
@@ -238,6 +238,3 @@ The pipeline produces structured output in the following format:
 - **Storage**: Implemented multiple formats to allow flexibility based on downstream needs
 - **Error Handling**: Chose to continue processing on individual file failures to maximize throughput
 
-## 📜 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
